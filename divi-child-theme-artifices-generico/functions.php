@@ -11,3 +11,6 @@ add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
 $subRole = get_role( 'subscriber' );
 $subRole->add_cap( 'read_private_pages' );
+
+/* TGM Plugin activation */
+require_once get_stylesheet_directory() . '/inc/tgm_pa.php';
