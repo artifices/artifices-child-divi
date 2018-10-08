@@ -59,7 +59,35 @@ function artifices_register_required_plugins() {
 	 */
 	$plugins = array(
 
-		// This is an example of how to include a plugin bundled with a theme.
+		// Plugin seguridad artifices alojando en Github
+		array(
+			'name'      => 'Divi-child-theme-para-clientes-de-Artifices',
+			'slug'      => 'Divi-child-theme-para-clientes-de-Artifices',
+			'source'    => 'https://github.com/artifices/Divi-child-theme-para-clientes-de-Artifices/archive/master.zip',
+		),
+
+		// Smush
+		array(
+			'name'      => 'Smush Image Compression and Optimization',
+			'slug'      => 'wp-smushit',
+			'required'  => false,
+		),
+		
+		// Updraft
+		array(
+			'name'      => 'UpdraftPlus WordPress Backup Plugin',
+			'slug'      => 'updraftplus',
+			'required'  => false,
+		),
+		
+		// Google Captcha
+		array(
+			'name'      => 'Google Captcha (reCAPTCHA) by BestWebSoft',
+			'slug'      => 'google-captcha',
+			'required'  => false,
+		),
+
+/*		// This is an example of how to include a plugin bundled with a theme.
 		array(
 			'name'               => 'TGM Example Plugin', // The plugin name.
 			'slug'               => 'tgm-example-plugin', // The plugin slug (typically the folder name).
@@ -108,6 +136,7 @@ function artifices_register_required_plugins() {
 			'slug'        => 'wordpress-seo',
 			'is_callable' => 'wpseo_init',
 		),
+*/
 
 	);
 
