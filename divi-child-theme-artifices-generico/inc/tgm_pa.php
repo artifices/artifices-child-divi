@@ -61,9 +61,9 @@ function artifices_register_required_plugins() {
 
 		// Plugin seguridad artifices alojando en Github
 		array(
-			'name'      => 'Divi-child-theme-para-clientes-de-Artifices',
-			'slug'      => 'Divi-child-theme-para-clientes-de-Artifices',
-			'source'    => 'https://github.com/artifices/Divi-child-theme-para-clientes-de-Artifices/archive/master.zip',
+			'name'      => 'artifices-seguridad-plugin',
+			'slug'      => 'artifices-seguridad-plugin',
+			'source'    => 'https://github.com/artifices/artifices-seguridad-plugin/archive/master.zip',
 		),
 
 		// Smush
