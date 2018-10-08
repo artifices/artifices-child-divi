@@ -43,6 +43,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "inc/tgm_pa.php",
+			"settings":
+			{
+				"buffer_size": 11445,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/class-tgm-plugin-activation.php",
+			"settings":
+			{
+				"buffer_size": 126665,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -81,7 +98,8 @@
 	"expanded_folders":
 	[
 		"/Users/jesuscortes/Documents/GitHub/Divi-child-theme-para-clientes-de-Artifices",
-		"/Users/jesuscortes/Documents/GitHub/Divi-child-theme-para-clientes-de-Artifices/divi-child-theme-artifices-generico"
+		"/Users/jesuscortes/Documents/GitHub/Divi-child-theme-para-clientes-de-Artifices/divi-child-theme-artifices-generico",
+		"/Users/jesuscortes/Documents/GitHub/Divi-child-theme-para-clientes-de-Artifices/divi-child-theme-artifices-generico/inc"
 	],
 	"file_history":
 	[
@@ -178,8 +196,73 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "inc/tgm_pa.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2533,
+								2533
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 515.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "inc/class-tgm-plugin-activation.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 126665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8972.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
