@@ -47,16 +47,17 @@
 			"file": "inc/tgm_pa.php",
 			"settings":
 			{
-				"buffer_size": 11445,
+				"buffer_size": 11752,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "inc/class-tgm-plugin-activation.php",
+			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 126665,
+				"buffer_size": 523,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -97,9 +98,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/jesuscortes/Documents/GitHub/Divi-child-theme-para-clientes-de-Artifices",
-		"/Users/jesuscortes/Documents/GitHub/Divi-child-theme-para-clientes-de-Artifices/divi-child-theme-artifices-generico",
-		"/Users/jesuscortes/Documents/GitHub/Divi-child-theme-para-clientes-de-Artifices/divi-child-theme-artifices-generico/inc"
+		"/Users/jesuscortes/Documents/GitHub/Divi-child-theme-para-clientes-de-Artifices"
 	],
 	"file_history":
 	[
@@ -196,7 +195,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -205,15 +204,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11445,
+						"buffer_size": 11752,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2533,
-								2533
+								2617,
+								2617
 							]
 						],
 						"settings":
@@ -225,27 +224,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 515.0,
+						"translation.y": 541.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "inc/class-tgm-plugin-activation.php",
-					"semi_transient": true,
+					"file": "style.css",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 126665,
+						"buffer_size": 523,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								407,
+								407
 							]
 						],
 						"settings":
@@ -253,14 +252,13 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 8972.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

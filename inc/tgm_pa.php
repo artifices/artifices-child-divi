@@ -59,32 +59,42 @@ function artifices_register_required_plugins() {
 	 */
 	$plugins = array(
 
+		// Plugin GitHub Updater
+		array(
+			'name'      => 'GitHub Updater',
+			'slug'      => 'github-updater',
+			'source'    => 'https://github.com/afragen/github-updater/archive/develop.zip',
+			'required'  => true,
+		),
+
 		// Plugin seguridad artifices alojando en Github
+		// token seguridad 7efc9fb0a17d54433a2d0be5544284c8067950f4
 		array(
 			'name'      => 'artifices-seguridad-plugin',
 			'slug'      => 'artifices-seguridad-plugin',
 			'source'    => 'https://github.com/artifices/artifices-seguridad-plugin/archive/master.zip',
+			'required'  => true,
 		),
 
 		// Smush
 		array(
 			'name'      => 'Smush Image Compression and Optimization',
 			'slug'      => 'wp-smushit',
-			'required'  => false,
+			'required'  => true,
 		),
 		
 		// Updraft
 		array(
 			'name'      => 'UpdraftPlus WordPress Backup Plugin',
 			'slug'      => 'updraftplus',
-			'required'  => false,
+			'required'  => true,
 		),
 		
 		// Google Captcha
 		array(
 			'name'      => 'Google Captcha (reCAPTCHA) by BestWebSoft',
 			'slug'      => 'google-captcha',
-			'required'  => false,
+			'required'  => true,
 		),
 
 /*		// This is an example of how to include a plugin bundled with a theme.
