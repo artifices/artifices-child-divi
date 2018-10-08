@@ -47,8 +47,26 @@
 			"file": "inc/tgm_pa.php",
 			"settings":
 			{
-				"buffer_size": 11752,
+				"buffer_size": 11749,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "instrucciones.txt",
+			"settings":
+			{
+				"buffer_size": 380,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "/* Documentación */"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 481,
 				"line_ending": "Unix"
 			}
 		},
@@ -204,7 +222,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11752,
+						"buffer_size": 11749,
 						"regions":
 						{
 						},
@@ -212,7 +230,7 @@
 						[
 							[
 								2617,
-								2617
+								2577
 							]
 						],
 						"settings":
@@ -224,14 +242,77 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 541.0,
+						"translation.y": 329.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "instrucciones.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/* Documentación */",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "functions.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 481,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								392,
+								480
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "style.css",
 					"semi_transient": false,
 					"settings":
@@ -243,8 +324,8 @@
 						"selection":
 						[
 							[
-								407,
-								407
+								288,
+								288
 							]
 						],
 						"settings":
@@ -258,7 +339,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
