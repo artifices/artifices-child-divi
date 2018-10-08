@@ -96,6 +96,12 @@ function artifices_register_required_plugins() {
 			'slug'      => 'google-captcha',
 			'required'  => true,
 		),
+		// Contact Form 7
+		array(
+			'name'      => 'Contact Form 7',
+			'slug'      => 'contact-form-7',
+			'required'  => false,
+		),		
 
 /*		// This is an example of how to include a plugin bundled with a theme.
 		array(
