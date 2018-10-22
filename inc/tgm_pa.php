@@ -101,7 +101,19 @@ function artifices_register_required_plugins() {
 			'name'      => 'Contact Form 7',
 			'slug'      => 'contact-form-7',
 			'required'  => false,
-		),		
+		),
+		// Flamingo
+		array(
+			'name'      => 'Flamingo',
+			'slug'      => 'flamingo',
+			'required'  => false,
+		),
+		// Cookie Law info
+		array(
+			'name'      => 'GDPR Cookie Consent',
+			'slug'      => 'cookie-law-info',
+			'required'  => true,
+		),								
 
 /*		// This is an example of how to include a plugin bundled with a theme.
 		array(
