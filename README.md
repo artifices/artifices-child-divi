@@ -1,1 +1,1 @@
-# Divi-child-theme-para-clientes-de-Artifices
+artifices-child-divi
