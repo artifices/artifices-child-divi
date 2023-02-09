@@ -67,14 +67,7 @@ function artifices_register_required_plugins() {
 			'required'  => true,
 		),
 
-		// Plugin seguridad artifices alojando en Github
-		// token seguridad 7efc9fb0a17d54433a2d0be5544284c8067950f4
-		array(
-			'name'      => 'artifices-seguridad-plugin',
-			'slug'      => 'artifices-seguridad-plugin',
-			'source'    => 'https://github.com/artifices/artifices-seguridad-plugin/archive/master.zip',
-			'required'  => true,
-		),
+		
 
 		// Smush
 		array(
@@ -90,12 +83,6 @@ function artifices_register_required_plugins() {
 			'required'  => true,
 		),
 		
-		// Google Captcha
-		array(
-			'name'      => 'Google Captcha (reCAPTCHA) by BestWebSoft',
-			'slug'      => 'google-captcha',
-			'required'  => true,
-		),
 		// Contact Form 7
 		array(
 			'name'      => 'Contact Form 7',
@@ -108,13 +95,27 @@ function artifices_register_required_plugins() {
 			'slug'      => 'flamingo',
 			'required'  => false,
 		),
-		// Cookie Law info
+		// Wordfence
 		array(
-			'name'      => 'GDPR Cookie Consent',
-			'slug'      => 'cookie-law-info',
-			'required'  => true,
-		),								
-
+			'name'      => 'Wordfence Security – Firewall, Malware Scan, and Login Security',
+			'slug'      => 'wordfence',
+			'required'  => false,
+		),
+		
+		// Cookies 
+		array(
+			'name'      => 'Complianz – GDPR/CCPA Cookie Consent',
+			'slug'      => 'complianz-gdpr',
+			'required'  => false,
+		),
+		
+		// Yoast SEO 
+		array(
+			'name'      => 'Yoast SEO',
+			'slug'      => 'wordpress-seo',
+			'required'  => false,
+		),
+		
 /*		// This is an example of how to include a plugin bundled with a theme.
 		array(
 			'name'               => 'TGM Example Plugin', // The plugin name.
